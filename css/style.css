@@ -1,0 +1,114 @@
+/* Import Icofont pour burger et close */
+@import url("icofont.min.css");
+    *{box-sizing: border-box;
+        margin:0;
+        font-family: sans-serif;}
+#nav1{background: black ;
+color: rgb(245, 230, 230);
+display: flex;
+justify-content: space-around;
+width: 100%;
+height: 3em;
+padding: 1vw;}
+a{text-decoration: none;
+    color: blue;}
+#nav1 > a{color:white;}
+#nav2 { background: rgb(219, 227, 230);
+width: 100%;
+height: 3em;
+display: flex;
+font-size: 15px;}
+#p1{ margin-left: 25%;}
+.apple1{position: relative;
+width:100%;}
+h2 {display:flex ;
+    justify-content: center;
+    padding: 2vw;
+font-size: 60px;}
+.ss,.tt{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: top 0;}
+figcaption{
+ text-align: center;
+ width: 100%;
+ position: absolute;
+ object-fit: cover;}
+figure{display: flex;
+    width:100% ;
+    position: relative;
+    object-fit: cover;}
+figure > img {
+    object-fit: cover;
+    position: relative;
+  margin: auto;
+  width:100%;
+    height: 80vh;}
+
+
+
+    figure> figcaption  >a {
+font-size: 20;}
+
+
+.tt{color: #f81caf;}
+
+
+.dd{color: white;}
+
+
+#red{color: red;}
+
+
+h2{color: white;}
+
+
+#grey{color: grey;}
+
+
+#pho1 , #pho2 , #pho3{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    margin: 1vw 2vh 3vw ;}
+
+
+h3{color: black;
+font-size: 60px;}
+
+
+#par{color: rgb(197, 192, 192);
+   
+margin-right: 15vw;
+margin-left:15vw;
+font-size: small;
+border: bottom 10px;}
+
+
+footer > section  
+{box-sizing: content-box;
+    margin: 0;
+    display: inline-block;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
